@@ -1,0 +1,17 @@
+{
+  "name": "hono",
+  "type": "module",
+  "scripts": {
+    "server": "bun ./src/index.ts",
+    "client": "cd client && bun run dev",
+    "dev": "bun run server & bun run client"
+  },
+  "dependencies": {
+    "hono": "^4.12.18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
